@@ -18,6 +18,7 @@ function submitData(name,email){
     let p = document.createElement('p')
       p.innerHTML = data.id
       document.querySelector('body').appendChild(p)
+      console.log(data.id)
   })
   .catch(function(err) {
      let sp = document.createElement('span')
